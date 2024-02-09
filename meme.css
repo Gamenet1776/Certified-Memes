@@ -1,4 +1,4 @@
-body {
+/*body {
 	background-color: #f2f2f2;
 	font-family: Arial, sans-serif;
 }
@@ -74,4 +74,83 @@ p {
     align-items: flex-start;
     justify-content: flex-start;
     font-size: 10px;
+} */
+
+
+
+
+
+
+body {
+    border: 2px solid #000000;
+	box-shadow: 5px 5px 10px #888888;
+	padding: 30px;
+	max-width: 1500px;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.image1 {
+width: 1350px ;
+height: auto;
+background-image: url(wolf1.PNG) ;
+}
+
+.text {
+position:absolute;
+top: 34%;
+left: 52.49%;
+}
+
+input {
+    Width: 431px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.pagewrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.left{
+    width: 75vw;
+    padding: 1em;
+}
+
+.right {
+    width: 25vw;
+    background-color: lightgray;
+    padding: 1em;
+}
+
+.number1 {
+    color: red;
+}
+
+.number2 {
+    color: blue
+}
+
+.number3 {
+    color: blueviolet;
+}
+
+.number4 {
+    color: orange;
 }
