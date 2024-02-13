@@ -78,7 +78,10 @@ p {
 
 
 
-
+canvas {
+    position: absolute;
+    top: 15%;
+}
 
 
 body {
@@ -88,6 +91,10 @@ body {
 	max-width: 1500px;
 	margin: 50px auto;
 	text-align: center;
+}
+
+script {
+    color:white;
 }
 
 .image1 {
@@ -109,10 +116,6 @@ input {
     text-align: center;
     
 }
-
-
-
-
 
 
 

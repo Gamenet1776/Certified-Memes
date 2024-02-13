@@ -8,67 +8,28 @@
 <body>
 
 
-
 <form id="certificate-form">
-     <label for="name">Name:</label>
+    <canvas id="myCanvas" width="1500px" height="450px"></canvas>
+    <label for="name">Name:</label>
      <input type="text" id="name" name="name" required>
      <label for="certification">Certification:</label>
      <select id="certification" name="certification" required>
          <option value="">Select a certification</option>
-         <option value="Chubby Monkey Certification">Alpha Certification</option>
-         <option value="Heart Breaker Certification">Beta Certification</option>
-          <option value="Skinny Jeans Certification">Mewer Certification</option>
+         <option value=" Alpha Certification">Alpha Certification</option>
+         <option value="Beta Certification">Beta Certification</option>
+          <option value="Mewer Certification">Mewer Certification</option>
      </select>
      <button type="submit">Generate Certificate</button>
+     <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.font = "50px Arial";
+        ctx.fillText("Bryan Xiong", 805, 205);
+        </script>
  </form>
  <script src="meme.js"></script>
-
 <preload><img src="wolf1.PNG" alt="background" class="image1"> </preload>
-<h3 id="certification-name" class="text"></h3>
 
 
-
-
-    <!-- <div class="pagewrapper">
-
-        <section class="left">
-
-            <div class="certificate " id="certificate">
-                <span id="nameOutput" class="visible">Test Name</span>
-                <span id="info">Test Info</span>
-            </div>
-
-        </section>
-
-        <section class="right">
-
-            <form action="" id="myForm">
-    
-                <input type="text" name="name" id="name" placeholder="Name">
-        
-                <select name="type" id="type">
-                    <option value="A">A</option>
-                    <option value="B">B</option>
-                    <option value="C">C</option>
-                    <option value="D">D</option>
-                </select>
-                <input type="submit" value="Generate">
-        
-            </form>
-        </section>
-
-
-	<div class="certificate">
-		<img src="logo.png" alt=" logo" class="logo">
-		<h1>CERTIFIED ALPHA</h1>
-		<div class="details">
-            <h2 class="big">Presented To</h2>
-			<h2 class="bigger" class="line">Bryan Xiong</h2>
-			<h4>Heart Broken</h4>
-            <h4>Multiple Fish in the sea</h4>
-            <h3>February 14th, 2024</h3>
-		</div>
-        <p class="something"> CEO Chief Alpha Vincent Vang</p>
-	</div> -->
 </body>
 </html> 
