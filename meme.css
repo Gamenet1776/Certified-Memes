@@ -99,12 +99,13 @@ background-image: url(wolf1.PNG) ;
 .text {
 position:absolute;
 top: 34%;
-left: 52.49%;
+left: 53.05%;
+margin-top: 7.4%;
 }
 
 input {
     Width: 431px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     
 }

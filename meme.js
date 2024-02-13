@@ -77,3 +77,15 @@ document.addEventListener("DOMContentLoaded", function () {
 function processForm(form){
 
 }
+
+document.getElementById('certificate-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    var name = document.getElementById('name').value;
+    var certification = document.getElementById('certification').value;
+
+    document.getElementById('recipient-name').textContent = name;
+    document.getElementById('certification-name').textContent = certification;
+    document.getElementById('certification-issuer').textContent = '' + certification.charAt(0).toUpperCase() + certification.slice(1);
+    document.getElementById('date').textContent = new Date().toLocaleDateString();
+});

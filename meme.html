@@ -3,11 +3,28 @@
 <head>
 	<title>Certificate of Completion</title>
 	<link rel="stylesheet" type="text/css" href="meme.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
+
+
+<form id="certificate-form">
+     <label for="name">Name:</label>
+     <input type="text" id="name" name="name" required>
+     <label for="certification">Certification:</label>
+     <select id="certification" name="certification" required>
+         <option value="">Select a certification</option>
+         <option value="Chubby Monkey Certification">Alpha Certification</option>
+         <option value="Heart Breaker Certification">Beta Certification</option>
+          <option value="Skinny Jeans Certification">Mewer Certification</option>
+     </select>
+     <button type="submit">Generate Certificate</button>
+ </form>
+ <script src="meme.js"></script>
+
 <preload><img src="wolf1.PNG" alt="background" class="image1"> </preload>
-<input type="text" type="hidden" class="text">
+<h3 id="certification-name" class="text"></h3>
 
 
 
